@@ -7,6 +7,6 @@
 2. due
 3. tre
 
-*corsivo*
-**grassetto**
+*corsivo*  
+**grassetto**  
 ***entrambi*** 
