@@ -1,9 +1,39 @@
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-p {
-    width: 40%;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    height: 100vh;
+    max-width: 400px;
+    margin: 0 auto;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+}
+
+.screen {
+    height: 100%;
+    position: relative;
+    color: white;
+    scroll-snap-align: start;
+}
+
+.info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+img,
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
 }
